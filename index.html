@@ -4,10 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
+  
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    
+   
+    <div id="container">
+        <h1>Rock, Paper, Scissors!</h1>
+        <div id="score" class="computerScore">
+            <p>CPU SCORE</p>
+            <p id="comScore" class="score">0</p>
+        </div>
+        <div id="computerChoice"></div>
+        <div id="playerChoice"></div>
+        <div id="score" class="playerScore">
+            <p>YOUR SCORE</p>
+            <p id="yourScore" class="score">0</p>
+        </div>
+        <div id="makeChoice">
+            <input type="image" id="button" name="rock" src="/Images/Rock.png" width="126" height="130">
+            <input type="image" id="button" name="paper" src="/Images/Paper.png" width="126" height="130">
+            <input type="image" id="button" name="scissors" src="/Images/Scissors.png" width="126" height="130">
+        </div>
+    </div>
+    <script src="rps.js"></script>
 </body>
 </html>
